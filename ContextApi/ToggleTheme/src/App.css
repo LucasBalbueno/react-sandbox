@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  background-color: #242424;
+  color: #fff;
+  height: 100vh;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #242424;
+}
+
+.light-mode button {
+  background-color: #242424;
+  color: #fff;
+}
